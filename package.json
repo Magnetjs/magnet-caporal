@@ -28,7 +28,7 @@
     "watch-all": "concurrently \"npm run watch\" \"npm run watch-test\""
   },
   "dependencies": {
-    "caporal": "^0.3.0",
+    "caporal": "^1.0.0",
     "magnet-core": "^3.3.0"
   },
   "devDependencies": {
