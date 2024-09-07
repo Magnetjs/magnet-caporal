@@ -227,16 +227,17 @@ callsites@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-0.2.0.tgz#afab96262910a7f33c19a5775825c69f34e350ca"
 
-caporal@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/caporal/-/caporal-0.3.0.tgz#bb8b56857244251c3298db9d1524fd2254989c84"
+caporal@^0.4.0:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/caporal/-/caporal-0.4.1.tgz#8fa8981b94ce349592b4ee77787abcc426d9420f"
+  integrity sha512-evmTPQ5iDyu3InhzIppPurlPrMF1De6OT28sT0anU1IY+fAGnMDZ0ybrIrLhEh4B2ZrbEne4eflNPlc2LYk4Ag==
   dependencies:
     bluebird "^3.4.7"
     chalk "^1.1.3"
     cli-table2 "^0.2.0"
     fast-levenshtein "^2.0.6"
     lodash.camelcase "^4.3.0"
-    minimist "^1.2.0"
+    micromist "^1.0.1"
     prettyjson "^1.2.1"
     tabtab "^2.2.2"
     winston "^2.3.1"
@@ -1509,6 +1510,13 @@ micromatch@^2.1.5:
     object.omit "^2.0.0"
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
+
+micromist@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/micromist/-/micromist-1.1.0.tgz#a490bcf9a4b918ad9eed8e52d0ec98b9c3b2d3c8"
+  integrity sha512-+CQ76pabE9egniSEdmDuH+j2cYyIBKP97kujG8ZLZyLCRq5ExwtIy4DPHPFrq4jVbhMRBnyjuH50KU9Ohs8QCg==
+  dependencies:
+    lodash.camelcase "^4.3.0"
 
 mime-db@~1.26.0:
   version "1.26.0"
